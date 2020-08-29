@@ -11,7 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "keywords": ["node,mongodb,restapi"],
+  "keywords": [
+    "node,mongodb,restapi"
+  ],
   "author": "Deepam Bahre",
   "license": "ISC",
   "dependencies": {
