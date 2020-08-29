@@ -1,13 +1,17 @@
 {
   "name": "node-post",
   "version": "1.0.0",
-  "description": "",
+  "description": "node-post",
   "main": "index.js",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
   "scripts": {
-    "dev": "env-cmd ./config/dev.env nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": ["node,mongodb,restapi"],
   "author": "Deepam Bahre",
   "license": "ISC",
   "dependencies": {
