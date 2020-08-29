@@ -1,33 +1,26 @@
 {
-  "name": "august-be-test",
+  "name": "node-post",
   "version": "1.0.0",
-  "description": "Build REST API with nodejs, express, mongodb and jwt",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "dev": "env-cmd ./config/dev.env nodemon index.js",
+    "start": "nodemon index.js"
   },
-  "keywords": [
-    "Node",
-    "Express",
-    "REST",
-    "API",
-    "Mongodb"
-  ],
+  "keywords": [],
   "author": "Deepam Bahre",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "1.18.2",
-    "dotenv": "^8.2.0",
-    "express": "4.16.3",
+    "express": "^4.16.4",
     "heroku": "^7.42.13",
-    "jsonwebtoken": "8.2.1",
-    "mongoose": "5.0.13",
-    "morgan": "1.9.0",
-    "nodemon": "^2.0.4"
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20",
+    "validator": "^10.11.0"
   },
   "devDependencies": {
-    "eslint": "4.19.1"
+    "env-cmd": "^8.0.2",
+    "nodemon": "^1.18.10"
   }
 }
