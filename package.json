@@ -17,10 +17,10 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.2",
     "mongoose": "^5.4.20",
+    "nodemon": "^2.0.4",
     "validator": "^10.11.0"
   },
   "devDependencies": {
-    "env-cmd": "^8.0.2",
-    "nodemon": "^1.18.10"
+    "env-cmd": "^8.0.2"
   }
 }
